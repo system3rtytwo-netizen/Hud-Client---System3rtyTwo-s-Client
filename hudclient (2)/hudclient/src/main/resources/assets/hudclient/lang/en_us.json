@@ -1,0 +1,6 @@
+{
+  "key.hudclient.toggle_hud": "Toggle HUD",
+  "key.hudclient.add_waypoint": "Add Waypoint",
+  "key.hudclient.open_config": "Open HUD Config",
+  "category.hudclient": "HudClient"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hudclient",
+  "version": "1.0.0",
+  "name": "HudClient",
+  "description": "A clean Fabric HUD mod: FPS, coords, keystrokes, entity counter, waypoints, CPS, speed, biome, and direction — all configurable in-game.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hudclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.hudclient.HudClientMod"]
+  },
+  "mixins": ["hudclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
